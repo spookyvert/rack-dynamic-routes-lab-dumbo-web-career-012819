@@ -14,6 +14,7 @@ class Application
       }
  
       resp.write item.price
+    elsif r
     end
  
     resp.finish
