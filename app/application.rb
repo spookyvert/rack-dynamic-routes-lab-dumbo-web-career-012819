@@ -14,7 +14,7 @@ class Application
       }
  
       resp.write item.price
-    elsif r
+    elsif resp.status == 404
     end
  
     resp.finish
