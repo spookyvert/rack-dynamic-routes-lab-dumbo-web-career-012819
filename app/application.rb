@@ -9,7 +9,7 @@ class Application
  
     if req.path.match(/songs/)
  
-      item_name = req.path.split("/items/").last #turn /songs/Sorry into Sorry
+      if item_name = req.path.split("/items/").last 
       item = @@items.find{|i| i.title == item_name
       }
  
