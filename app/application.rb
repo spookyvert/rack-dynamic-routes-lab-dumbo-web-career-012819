@@ -14,7 +14,7 @@ class Application
       }
  
       resp.write item.price
-    elsif resp.status == 404
+    elsif resp.status == 400
       resp.write "Route not found"
     end
  
