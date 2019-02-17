@@ -14,7 +14,8 @@ class Application
       }
  
       resp.write item.price
-    elsif resp.status == 400
+    else
+      resp.status == 400
       resp.write "Item not found"
     end
  
