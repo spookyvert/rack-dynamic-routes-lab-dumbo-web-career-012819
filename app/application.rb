@@ -1,7 +1,7 @@
 class Application
  
-  @@items = [Song.new("Sorry", "Justin Bieber"),
-            Song.new("Hello","Adele")]
+  @@items = [Item.new("Sorry", "Justin Bieber"),
+            Item.new("Hello","Adele")]
  
   def call(env)
     resp = Rack::Response.new
