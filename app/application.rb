@@ -1,7 +1,7 @@
 class Application
  
-  @@items = [Item.new("Sorry", "Justin Bieber"),
-            Item.new("Hello","Adele")]
+  @@items = [Item.new("Grape", 0.99),
+            Item.new("Apple",1.00)]
  
   def call(env)
     resp = Rack::Response.new
