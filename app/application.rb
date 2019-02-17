@@ -13,7 +13,7 @@ class Application
       item = @@items.find{|i| i.title == item_name
       }
  
-      resp.write song.artist
+      resp.write item.price
     end
  
     resp.finish
